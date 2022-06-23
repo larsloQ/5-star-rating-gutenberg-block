@@ -3,10 +3,7 @@
 5-star rating gutenberg block comes as a plugin, since it uses server-side render.
 build pipeline is based on getwid's setup.
 
-
-
-https://user-images.githubusercontent.com/37798850/175276986-6e7d4f33-649e-4402-ae46-cf44beab2000.mp4
-
+![demo-5-star-rating](https://user-images.githubusercontent.com/37798850/175279135-cbf4d114-ac60-4c23-96e1-e0a43b82e48b.gif)
 
 
 *If you want to connect this to a real data-source (like Google MyBusiness) let me know*
