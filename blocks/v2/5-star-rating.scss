@@ -1,0 +1,70 @@
+/*
+ * output of this this is used in editor and frontend
+ * feel free to use your own styles
+ */
+
+.grid-container__blocks > .wp-block__yours59-google-reviews-overview {
+  padding: 0;
+}
+
+/*  the wrapper element created from wp's useBlockProps (js)  */
+.wp-block__yours59-google-reviews-overview {
+
+}
+
+.wp-block-yours59-google-reviews-overview:not(.block-editor-block-list__block),
+.google-review__stars-wrapper-wrapper{
+  display: flex;
+  grid-gap: 1rem;
+  justify-content: flex-start;
+}
+
+.google-review__text-wrapper {
+  align-items: center;
+  display: flex;
+  flex: 1 0 auto;
+  grid-gap: var(--wp--custom--spacing--half, .5rem)
+}
+
+.google-review__stars-wrapper {
+  flex: 1 1 auto;
+  flex-grow: 0 !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.google-review__stars {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  white-space: nowrap;
+}
+
+.google-review__svg-wrapper > svg {
+  display: block;
+  fill: var(--wp--preset--color--yellow, gold);
+
+  path {
+    transform: translate(-1.3px, -1.3px);
+  }
+  .--dark & {
+      fill: var(--wp--preset--color--black, black);
+    }
+}
+
+
+.google-review__stars-cover {
+  background: white;
+  height: 100%;
+  mix-blend-mode: color;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  .google-review__stars & {
+  mix-blend-mode: normal;
+      opacity: 0.5;
+  }
+}
+
+

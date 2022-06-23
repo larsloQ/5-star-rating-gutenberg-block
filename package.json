@@ -1,0 +1,63 @@
+{
+  "name": "yours59-five-star-rating-block",
+  "version": "1.0",
+  "license": "GNU GPLv3",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env BABEL_ENV=default webpack ",
+    "server": "-- just run 'gulp' in a separate terminal -- ",
+    "build": "cross-env BABEL_ENV=default NODE_ENV=production webpack -p"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "IE 11",
+    "> 1%"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/runtime-corejs2": "^7.5.5",
+    "@fonticonpicker/react-fonticonpicker": "^1.1.0",
+    "@wordpress/babel-preset-default": "^4.1.0",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "browser-sync": "^2.27.9",
+    "classnames": "^2.2.6",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "extract-loader": "^3.1.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^2.0.0",
+    "glob": "^7.1.6",
+    "gradient-parser": "^0.1.5",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "hex-to-rgb": "^1.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "lodash-move": "^1.1.1",
+    "memize": "^1.0.5",
+    "node-sass": "^4.14.0",
+    "postcss-loader": "^3.0.0",
+    "prop-types": "^15.7.2",
+    "raw-loader": "^0.5.1",
+    "react-google-font-loader": "^1.0.5",
+    "react-transition-group": "^2.6.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^3.12.0",
+    "webpack-bundle-analyzer": "^3.3.2",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.2",
+    "@wordpress/element": "^2.3.0",
+    "@wordpress/hooks": "^2.11.0",
+    "@wordpress/i18n": "^3.3.0",
+    "tippy.js": "^6.2.3"
+  }
+}
