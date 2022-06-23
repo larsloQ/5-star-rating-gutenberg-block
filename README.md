@@ -4,6 +4,10 @@
 build pipeline is based on getwid's setup.
 
 
+
+https://user-images.githubusercontent.com/37798850/175274817-4964d045-92ce-4e16-9ab0-1ddadc168f26.mp4
+
+
 *If you want to connect this to a real data-source (like Google MyBusiness) let me know*
 
 
