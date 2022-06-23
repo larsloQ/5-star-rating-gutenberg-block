@@ -5,7 +5,7 @@ build pipeline is based on getwid's setup.
 
 
 
-https://user-images.githubusercontent.com/37798850/175275290-eb1070f8-63da-468c-a832-f8f929fe7638.mp4
+https://user-images.githubusercontent.com/37798850/175276986-6e7d4f33-649e-4402-ae46-cf44beab2000.mp4
 
 
 
