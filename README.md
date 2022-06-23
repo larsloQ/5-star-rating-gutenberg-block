@@ -5,7 +5,8 @@ build pipeline is based on getwid's setup.
 
 
 
-https://user-images.githubusercontent.com/37798850/175274817-4964d045-92ce-4e16-9ab0-1ddadc168f26.mp4
+https://user-images.githubusercontent.com/37798850/175275290-eb1070f8-63da-468c-a832-f8f929fe7638.mp4
+
 
 
 *If you want to connect this to a real data-source (like Google MyBusiness) let me know*
