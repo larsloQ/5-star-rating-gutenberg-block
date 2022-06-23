@@ -1,7 +1,10 @@
 # 5-star rating gutenberg block 
 
 5-star rating gutenberg block comes as a plugin, since it uses server-side render.
-build pipeline is based on getwid's setup
+build pipeline is based on getwid's setup.
+
+[![demo screencast](./5-star-rating-block.png)](./5-star-rating-block.mp4)
+
 
 *If you want to connect this to a real data-source (like Google MyBusiness) let me know*
 
